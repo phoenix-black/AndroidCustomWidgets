@@ -1,3 +1,3 @@
 # AndroidCustomWidgets
-Cutom Widgets to simplify programing
+Custom Widgets to simplify programming
 1. ZToast
