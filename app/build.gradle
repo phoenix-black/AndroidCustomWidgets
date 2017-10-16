@@ -1,11 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 26
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.blackphoenix.praba.androidcustomwidgets"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
