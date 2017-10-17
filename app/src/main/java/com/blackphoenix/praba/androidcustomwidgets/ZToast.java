@@ -9,14 +9,14 @@ import android.widget.Toast;
 public class ZToast {
 
     public static void show(Context context, String message){
-        Toast.makeText(context,""+message,Toast.LENGTH_SHORT).show();
+        Toast.makeText(context,"Toast: "+message,Toast.LENGTH_SHORT).show();
     }
 
     public static void showShort(Context context, String message){
-        Toast.makeText(context,""+message,Toast.LENGTH_SHORT).show();
+        Toast.makeText(context,"Toast: "+message,Toast.LENGTH_SHORT).show();
     }
 
     public static void showLong(Context context, String message){
-        Toast.makeText(context,""+message,Toast.LENGTH_LONG).show();
+        Toast.makeText(context,"Toast: "+message,Toast.LENGTH_LONG).show();
     }
 }
